@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Cancer Connect</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+  <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+  <style>
+    body {
+      background-color: white;
+    }
+
+    h1 {
+      margin: 30px;
+    }
+
+    img {
+      border-radius: 80%;
+      height: 250px;
+      width: 450px;
+      border-width: 0.125cm;
+      border-color: lavender;
+    }
+
+    nav {
+      background: none;
+      display: inline-block;
+      text-align: center;
+      font-size: 70px;
+      margin: 0 auto;
+      overflow: hidden;
+    }
+
+    nav ul {
+      float: none;
+      margin-right: none;
+    }
+
+    nav ul li {
+      display: inline-block;
+      line-height: 80px;
+      margin: 0 5px;
+    }
+
+    nav ul li a {
+      color: #98B8E2;
+      font-size: 25px;
+      padding: 7px 13px;
+      border-radius: 3px;
+      text-transform: uppercase;
+      text-shadow: 1px 2.5px 1.5px #e7c3ce;
+    }
+
+    .hover-underline-animation {
+      display: inline-block;
+      position: relative;
+    }
+
+    .hover-underline-animation:after {
+      content: '';
+      position: absolute;
+      width: 100%;
+      transform: scaleX(0);
+      height: 2px;
+      bottom: 0;
+      left: 0;
+      background-color: var(--darkBlue-color);
+      transform-origin: bottom right;
+      transition: transform 0.25s ease-out;
+    }
+
+    .hover-underline-animation:hover:after {
+      transform: scaleX(1);
+      transform-origin: bottom left;
+    }
+
+    a {
+      text-decoration: none;
+      color: var(--darkBlue-color);
+      font-size: 14pt;
+      font-family: var(--body-font);
+    }
+
+    a:hover {
+      text-decoration: underline;
+      background: none;
+    }
+  </style>
+  <title>Learn Page</title>
+</head>
+
+<body class="learnBod">
+  <div class="top-page">
+    <div class="title-container">
+      <h1 class="title-acro">C a n c e r    C o n n e c t.</h1>
+    </div>
+    <center>
+      <nav>
+        <ul>
+          <!--       <li><a href=index.html>Beyond</a></li> -->
+          <li><a href=index.html class="hover-underline-animation">Home</a></li>
+          <li><a href=socialnetwork.html class="hover-underline-animation">Connect</a></li>
+          <li><a href=learn.html class="hover-underline-animation">Learn</a></li>
+          <li><a href=resources.html class="hover-underline-animation">Resources</a></li>
+        </ul>
+      </nav>
+    </center>
+
+
+  <!--*Page Content*-->
+  <div class="row">
+    <div class="col">
+      <center<img class="displayedimage" src="https://cdn.mos.cms.futurecdn.net/mZWTSqsHwPqLJ4WCez9mSm.jpg" />
+      </center>
+    </div>
+    <div class="col">
+      <center><img src="https://www.clearlypayments.com/wp-content/uploads/2020/07/lean.jpg" /></center>
+      <center><button class="button-80">Learn about Cancer</button></center>
+    </div>
+    <div class="cardContainer">
+      <div class="cards">
+        <center>
+          <h1>What is Cancer?</h1>
+        </center>
+        <p class="card">Cells are the building blocks of life. Our bodies are made up of cells. All the time our body is
+          regenerating new cells to make up for the old ones. Cancer is a disease that happens when bad cells stop the
+          good cells from doing their job. These bad cells can grow into a lump and can spread to other parts of the
+          body. Cancer is the name for over 200 diseases in which abnormal cells grow and rapidly divide. These cells
+          usually develop into a lump called a tumour.</p>
+        <center><button class="LearnMoreButton">Learn More</button></center>
+        <center>
+          <h1>Leukemia</h1>
+        </center>
+        <p class="card">Leukemia refers to cancers of the white blood cells-your bone marrow makes large numbers of bad
+          cells. This problem most often happens with white blood cells. These abnormal cells build up in your bone
+          marrow and blood. They repel healthy blood cells and make it hard for your cells and blood to do work. With
+          treatment, most childhood leukemias have very high remission rates. Remission means that doctors see no cancer
+          cells in the body.</p>
+        <center><button class="LearnMoreButton">Learn More</button></center>
+        <center>
+          <h1>Lymphoma</h1>
+        </center>
+        <p class="card"> Lymphoma is a cancer of the lymphatic system, which is part of the body's germ-fighting
+          network. The lymphatic system includes the lymph nodes (lymph glands), spleen, thymus gland and bone marrow.
+          Lymphoma can affect all those areas as well as other organs throughout the body. Childhood lymphoma is rare.
+        </p>
+        <center><button class="LearnMoreButton">Learn More</button></center>
+      </div>
+      <div class="cards">
+        <center>
+          <h1>Childhood Cancer</h1>
+        </center>
+        <p class="card">In the United States in 2021, an estimated 10,500 new cases of cancer were diagnosed among
+          children. Children's cancers are not always treated like adult cancers. Pediatric oncology is a medical
+          specialty focused on the care of children with cancer. It's important to know that this expertise exists and
+          that there are effective treatments for many childhood cancers.</p>
+        <center><button class="LearnMoreButton">Learn More</button></center>
+        <center>
+          <h1>CNS</h1>
+        </center>
+        <p class="card">A CNS tumor begins when healthy cells within the brain or the spinal cord change and grow out of
+          control, forming a mass. A CNS tumor can be either cancerous or benign, and both types can potentially be
+          dangerous. A cancerous tumor is malignant, meaning it can grow fast and spread to other parts of the body.</p>
+        <center><button class="LearnMoreButton">Learn More</button></center>
+        <center>
+          <h1>Neuroblastoma</h1>
+        </center>
+        <p class="card">Neuroblastoma is the most common malignant (cancerous) extracranial solid tumor of childhood.
+          Neuroblastoma is a type of cancer that starts in early nerve cells called neuroblasts. Normally, these
+          immature cells grow into working nerve cells. But in neuroblastoma (nur-oh-bla-STOW-muh), they grow
+          uncontrollably and become cancer cells that form a solid tumor. </p>
+        <center><button class="LearnMoreButton">Learn More</button></center>
+      </div>
+      <div class="cards">
+        <center>
+          <h1>Stigmas</h1>
+        </center>
+        <p class="card">Childhood cancers are not lifestyle-related and a child doesn't get cancer because of naughty
+          behaviour. There’s nothing anyone did to cause the cancer. It’s not contagious you are safe around the child
+          with cancer. If a sick child is in isolation, this is to protect the child from infection, not to protect
+          everyone else from the cancer. Most children get better although cancer is a serious, life-threatening
+          disease, the overall survival rate for children is now more than 80%</p>
+        <center><button class="LearnMoreButton">Learn More</button></center>
+        <center>
+          <h1>Kidney Tumors</h1>
+        </center>
+        <p class="card">Doctors know that kidney cancer begins when some kidney cells develop changes (mutations) in
+          their DNA. A cell's DNA contains the instructions that tell a cell what to do. The changes tell the cells to
+          grow and divide rapidly. The accumulating abnormal cells form a tumor that can extend beyond the kidney.</p>
+        <center><button class="LearnMoreButton">Learn More</button></center>
+        <center>
+          <h1>Bone Tumors</h1>
+        </center>
+        <p class="card">Some bone tumors are malignant (cancerous). Malignant bone tumors can metastasize — or cause
+          cancer cells to spread throughout the body. In almost all cases, treatment for malignant tumors involves a
+          combination of chemotherapy, radiation, and surgery.</p>
+        <center><button class="LearnMoreButton">Learn More</button></center>
+      </div>
+    </div>
+  </div>
+
+
+  <!--   Footer -->
+  <div class="footer">
+    <div class="col2">
+      <h3>DONATE NOW</h3>
+      <form>
+        <input type="email" placeholder="Email Adress" required>
+        <input type="text" placeholder="Name" required>
+        <input type="text" placeholder="How much do you want to donate" required>
+        <br>
+        <button type="submit">Submit</button>
+      </form>
+      <p class="footerpara">Made by Ghita, Kayla, Idil and Christina. KWK 2022</p>
+    </div>
+    <script src="script.js"></script>
+
+    <script type='text/javascript'>
+      (function (I, L, T, i, c, k, s) {if (I.iticks) return; I.iticks = {host: c, settings: s, clientId: k, cdn: L, queue: []}; var h = T.head || T.documentElement; var e = T.createElement(i); var l = I.location; e.async = true; e.src = (L || c) + '/client/inject-v2.min.js'; h.insertBefore(e, h.firstChild); I.iticks.call = function (a, b) {I.iticks.queue.push([a, b]);};})(window, 'https://cdn-v1.intelliticks.com/prod/common', document, 'script', 'https://app.intelliticks.com', 'Y8LpXt8bhv9ii9bef_c', {});
+    </script>
+
+
+</body>
+
+</html>

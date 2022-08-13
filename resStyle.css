@@ -1,0 +1,295 @@
+/*Menu bar CSS  */
+
+
+*{
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+  list-style: none;
+  box-sizing: border-box;
+}
+body{
+  font-family: montserrat;
+}
+nav{
+  background: black;
+  height: 80px;
+  width: 100%;
+}
+label.logo{
+  color: white;
+  font-size: 35px;
+  line-height: 80px;
+  padding: 0 100px;
+  font-weight: bold;
+}
+nav ul{
+  float: right;
+  margin-right: 20px;
+}
+nav ul li{
+  display: inline-block;
+  line-height: 80px;
+  margin: 0 5px;
+}
+nav ul li a{
+  color: white;
+  font-size: 17px;
+  padding: 7px 13px;
+  border-radius: 3px;
+  text-transform: uppercase;
+}
+a.active,a:hover{
+  background: #28282B;
+  transition: .5s;
+}
+#check{
+  display:none;
+}
+
+
+body{
+  background: #A6D1E6;
+}
+/* Resources Banner Image  */
+#bannerimage {
+  width: 100%;
+  background-image: url(https://images.unsplash.com/photo-1576086213369-97a306d36557?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=580&q=80);
+  height: 405px;
+  background-color: purple;
+  background-position: center;
+}
+.bannerText{
+  color:white;
+  font-size:80px;
+  position:relative;
+  top:100px;
+  left:20px;
+  font-family: Mochiy Pop One;
+}
+
+/* Squares aka other resources css */
+#containerRes{
+  display: flex;
+    justify-content: center;
+/*   align-items: center; */
+  margin-top:80px;
+  margin-bottom:600px;
+  
+}
+#container{
+    display: flex;
+    justify-content: center;
+  align-items: center;
+}
+#container_02{
+    margin-top: 10px;
+    border-radius: 10%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    position: absolute;
+    border-style: solid;
+    border-color: darkblue;
+    height: 500px;
+    width: 600px;
+    background-color: rgb(196, 196, 196);
+  text-align: center;
+  
+}
+#container_square01{
+    display: flex;
+    justify-content: flex-start;
+}
+.square01{
+    margin-top: 4px;
+    position: relative;
+    border-radius: 10%;
+    background-color: #7F96EF;
+    height: 160px;
+    width: 160px;
+}
+.square01:hover{
+    border-style: solid;
+    border-color: rgb(255, 255, 255);
+    background-color: black;
+}
+#container_square02{
+    display: flex;
+    justify-content: center;
+}
+.square02{
+    margin-top: 4px;
+    position: relative;
+    border-radius: 10%;
+    background-color:  #F4A3C3;
+    height: 160px;
+    width: 160px;
+}
+.square02:hover{
+    border-style: solid;
+    border-color: rgb(255, 255, 255);
+    background-color: rgb(28, 9, 41);
+}
+#container_square03{
+    display: flex;
+    justify-content: flex-end;
+}
+.square03{
+    margin-top: 4px;
+    position: relative;
+    border-radius: 10%;
+    background-color: #4AA1FD;
+    height: 160px;
+    width: 160px;
+}
+.square03:hover{
+    border-style: solid;
+    border-color: rgb(255, 255, 255);
+    background-color: rgb(28, 14, 37);
+}
+#container_square04{
+    display: flex;
+    justify-content: flex-start;
+}
+.square04{
+    position: relative;
+    border-radius: 10%;
+    background-color:#FF9600;
+    height: 160px;
+    width: 160px;
+}
+.square04:hover{
+    border-style: solid;
+    border-color: rgb(255, 255, 255);
+    background-color: rgb(27, 15, 34);
+}
+#container_square05{
+    display: flex;
+    justify-content: flex-start;
+}
+.square05{
+    position: relative;
+    border-radius: 10%;
+    background-color: #D8BE03;
+    height: 160px;
+    width: 160px;
+}
+.square05:hover{
+    border-style: solid;
+    border-color: rgb(255, 255, 255);
+    background-color: rgb(31, 20, 37);
+}
+
+/*Other resources css  */
+
+
+.containerRes {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+.textS {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+  color: #ca8102;
+  font-size: 20px;
+  border-radius: 2px;
+  padding: 10px;
+}
+
+.textt h1{
+  font-family:Abril Fatface ;
+  font-size: 30px;
+  text-align: center;
+}
+
+.resLinks button{
+  background: transparent;
+  border: 2px solid #fff;
+  color: #fff;
+  border-radius: 30px;
+  padding: 10px 30px;
+  font-size: 15px;
+  cursor: pointer;
+  margin: 10px;
+}
+.buttonres{
+  text-align: right;
+}
+
+#content1 {
+  margin-top: 20px;
+  margin-left: 20px;
+  font-size: 20px;
+  
+}
+
+#content2{
+   margin-top: 20px;
+  margin-left: 20px;
+  font-size: 20px;
+  
+}
+#Content3 {
+   margin-top: 20px;
+  margin-left: 20px;
+  font-size: 20px;
+  
+}
+
+
+.footer{
+  margin-top:800px;
+  width: 100%;
+  padding:100px 15% ;
+  background: #333;
+  color:#efefef;
+  display:flex;
+  flex-direction:end;
+}
+
+.footer div {
+  text-align: center;
+}
+.col2{
+  flex-grow: 2;
+}
+
+.footer div h3{
+  font-weight: 300;
+  margin-bottom: 30px;
+  letter-spacing: 1;
+}
+ form{
+   display:block;
+ }
+
+form input{
+  width: 400px;
+  height: 45px;
+  border-radius: 4px;
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 40px;
+  outline: none;
+  border: none;
+}
+
+form button{
+  background: transparent;
+  border: 2px solid #fff;
+  color: #fff;
+  border-radius: 30px;
+  padding: 10px 30px;
+  font-size: 15px;
+  cursor: pointer;
+}
+.footerpara{
+  margin-top:20px;
+  
+}*/
